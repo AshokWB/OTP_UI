@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: #dfdfdf5d;
+}
+.wrapper{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 650px;
+    /* min-width: 450px; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000; */
+    background-color: #ffff;
+    border-radius: 1rem;
+}
+
+.lock{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f50057;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+h1{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+h2{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.input-section{
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.separator{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+input.field{
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: .5rem;
+    margin: 0 1rem;
+    border: 1px solid #ccc;
+    caret-color: transparent;
+    cursor: pointer;
+
+}
+/* For Chrome */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* For Firefox */
+input[type=number] {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+.verify-btn{
+    margin: 1rem 0 0 0;
+    padding: 1rem 2rem;
+    background-color: #3f51b5;
+    color: #ffffff;
+    border: none;
+    border-radius: .3rem;
+    font-size: .8rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 3px 4px 8px rgb(0 0 0 / 10%);
+}
+.verify-btn:hover{
+    background-color: #3f51b5e0;
+}
